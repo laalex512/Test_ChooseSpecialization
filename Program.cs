@@ -21,3 +21,15 @@ string[] FindElements(string[] inputArray, int countSymbol)
     return outputArray;
 }
 
+void PrintArray(string[] arrayForPrint) 
+{
+    Console.Write("[ ");
+    for (int i = 0; i < arrayForPrint.Length - 1; i++)
+    {
+        Console.Write($"\"{arrayForPrint[i]}\", ");
+    }
+    Console.Write($"\"{arrayForPrint[arrayForPrint.Length-1]}\" ]");
+    Console.WriteLine();
+}
+
+
