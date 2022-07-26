@@ -33,3 +33,10 @@ void PrintArray(string[] arrayForPrint)
 }
 
 
+int countSymbol = 3;
+string[] inputArray = {"Hello", "1234", "123", "Here", "you", "are", "I'm", "glad", "to", "you"};
+
+string[] outputArray = FindElements(inputArray, countSymbol);
+
+PrintArray(outputArray);
+
